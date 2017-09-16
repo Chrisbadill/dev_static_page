@@ -1,0 +1,22 @@
+{
+  "name": "estatica",
+  "version": "1.0.0",
+  "description": "plantilla para el desarrollo de paginas estaricas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisbadill/dev_static_page.git"
+  },
+  "author": "Chris badillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisbadill/dev_static_page/issues"
+  },
+  "homepage": "https://github.com/Chrisbadill/dev_static_page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
