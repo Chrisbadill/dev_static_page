@@ -3,16 +3,16 @@ const browserSync= require("browser-sync").create();
 
 gulp.task('serve', () => {
     browserSync.init({
-        server: "./app/dist/slider/"
+        server: "./dist/"
     });
 
-    gulp.watch("./app/dist/slider/*.html",['html']);
-    gulp.watch("./app/dist/slider/*.js",['html']);
-    gulp.watch("./app/dist/slider/*.css",['css']);
+    gulp.watch("./dist/*.html",['html']);
+    gulp.watch("./dist/js/*.js",['html']);
+    gulp.watch("./dist/css/*.css",['css']);
 });
 
 gulp.task('css',() => {
-  gulp.src("./app/dist/slider*.css")
+  gulp.src("./dist/css/*.css")
   .pipe(browserSync.reload())
 });
 
